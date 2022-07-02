@@ -1,7 +1,7 @@
 # Heart-Disease-Prediction
 Streamlit web app that uses a KNN classification model to predict whether or not someone has heart disease. It has 92% accuracy, .92 recall, and a .92 F1-score.
 
-Website link: 
+Website link: https://daniyal-d-heart-disease-heart-disease-prediction-web-app-hcyoyk.streamlitapp.com/
 
 This project uses the University of California Irvine's heart disease dataset (https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci) to train and evaluate predictions. This repository consists a Jupyter Notebook, which contains analysis of the data, model training/hypertuning, and model evaluation, the saved classification model, and a Python file containing the code of the web app.
 
