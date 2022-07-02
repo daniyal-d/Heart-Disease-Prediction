@@ -14,3 +14,19 @@ Standardization works by taking the mean (μ) and standard deviation (σ) of eac
 
 # Hypertuning
 Hyptertuning was not able to increase the accuracy scores of Logistic Regression or Random Forest on neither the scaled or unscaled data, but it pushed KNN's accuracy from ~90% to ~92%. I also attempted to encode the categorical variables with `OneHotEncoder` and `pd.get_dummies`, and then scaling the quantitative variables (not shown in the notebook), but this did not improve any model's score. Overall, I found that a KNN classifier with n_neighbors=7 is the most accurate model. This is what the website uses.
+
+# Dataset Column Descriptions (taken from Kaggle)
+* **age** - The age of the patient.
+* **sex** - The gender of the patient. (1 = male, 0 = female).
+* **cp** - Type of chest pain. (0 = typical angina, 1 = atypical angina, 2 = non — anginal pain, 3 = asymptotic).
+* **trestbps** - Resting blood pressure in mmHg.
+* **chol** - Serum Cholesterol in mg/dl.
+* **fbs** - Fasting Blood Sugar. (1 = fasting blood sugar is more than 120mg/dl, 0 = otherwise).
+* **restecg** - Resting ElectroCardioGraphic results (0 = normal, 1 = ST-T wave abnormality, 2 = left ventricular hyperthrophy).
+* **thalach** - Max heart rate achieved.
+* **exang** - Exercise induced angina (1 = yes, 0 = no).
+* **oldpeak** - ST depression induced by exercise relative to rest.
+* **slope** - Peak exercise ST segment (0 = upsloping, 1 = flat, 2 = downsloping).
+* **ca** - Number of major vessels (0–3) colored by flourosopy.
+* **thal** - Thalassemia (3 = normal, 6 = fixed defect, 7 = reversible defect).
+* **target** - Diagnosis of heart disease (0 = absence, 1 = present)
