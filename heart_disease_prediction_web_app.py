@@ -15,7 +15,7 @@ st.set_page_config(page_title="Heart Disease Classifier", layout="wide")
 st.sidebar.header("""**Dataset Features**""")
 st.sidebar.write(
     "You can view the entire Jupyter Notebook on Github (click the three bars on the top right of your screen "
-    "and then click 'View Source Code')")
+    "and then click 'View app source')")
 st.sidebar.markdown("Below description taken the from Kaggle (https://www.kaggle.com/datasets/cherngs/"
                     "heart-disease-cleveland-uci)")
 st.sidebar.markdown("""
