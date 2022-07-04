@@ -1,5 +1,5 @@
 # Heart-Disease-Prediction
-Web app that uses a KNN classification model to predict whether or not someone has heart disease. It has 92% accuracy, .92 recall, and a .92 F1-score.
+Web app that uses a KNN classification model to predict whether or not someone has heart disease. It has 91.8% accuracy, .92 recall, and a .92 F1-score.
 
 Website link: https://daniyal-d-heart-disease-heart-disease-prediction-web-app-hcyoyk.streamlitapp.com/
 
