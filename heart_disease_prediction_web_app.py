@@ -39,7 +39,7 @@ st.title("Heart Disease Classifier")
 st.caption("Made by Daniyal Dawood")
 st.subheader("This model attempts to predict whether or not someone has heart disease using the k-nearest neighbors"
           " algorithm. Collected data is standardized and then evaluated with a hypertuned-model.")
-st.subheader("The model was trained on the University of California Irvine's heart disease dataset and has 92% "
+st.subheader("The model was trained on the University of California Irvine's heart disease dataset and has 91.8% "
              "accuracy, .92 recall, and a .92 F1-score")
 st.subheader("Please note however that this was made by a high schooler "
              "and should NOT be used as a medical diagnosis. Please consult your local medical professional "
