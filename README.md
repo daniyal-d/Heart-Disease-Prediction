@@ -8,7 +8,7 @@ This project uses the University of California Irvine's heart disease dataset (h
 # How the model works
 This project uses a machine learning classifier model (KNN) to predict heart disease. The dataset contains multiple different variables about the health of patients. These values are all either quantitative, or categorical but encoded as numeric values (for example, in the sex variable, 1 = Male and 0 = Female). This dataset was tested on 3 different classifiers (Linear Regression, KNN, and Random Forest) and baseline results showed that logistic regression had the highest accuracy. However, after standerdizing the data with `StandardScaler()`, KNN had the highest accuracy. 
 
-# $ z = \dfrac{x-μ}{σ} $
+# $z = \dfrac{x-μ}{σ} $
 
 Standardization works by taking the mean (μ) and standard deviation (σ) of each column. Then, each individual value's z-score (standardized value) is calculated
 
