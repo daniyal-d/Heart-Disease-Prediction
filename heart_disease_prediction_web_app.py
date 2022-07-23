@@ -113,7 +113,7 @@ if agreement:
         prediction = model.predict(user_data_df_sc)
 
         if prediction[0] == 1:
-            st.write("The model predicts you have heart disease.")
+            st.write("The model predicts that you have heart disease.")
             st.write(f"Model Prediction: {prediction[0]} (1 = heart disease present, 0 = no heart disease)")
         else:
             st.write("The model predicts that you do not have heart disease.")
