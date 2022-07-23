@@ -3,7 +3,7 @@ Web app that uses a KNN classification model to predict whether or not someone h
 
 Website link: https://daniyal-d-heart-disease-heart-disease-prediction-web-app-hcyoyk.streamlitapp.com/
 
-This project uses the University of California Irvine's heart disease dataset (https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci) to train and evaluate predictions. This repository consists a Jupyter Notebook, which contains analysis of the data, model training/hypertuning, and model evaluation, the saved classification model, and a Python file containing the code of the web app.
+This project uses the University of California Irvine's heart disease dataset (https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci) to train and evaluate predictions. This repository consists a Jupyter Notebook, which contains analysis of the data, model training/hypertuning, and model evaluation, the saved classification model, and a Python file containing the code of the web app. UCI's dataset was split into train and test sets, with the final model scoring 91.8% accuracy on the test set.
 
 # How the model works
 This project uses a machine learning classifier model (KNN) to predict heart disease. The dataset contains multiple different variables about the health of patients. These values are all either quantitative, or categorical but encoded as numeric values (for example, in the sex variable, 1 = Male and 0 = Female). This dataset was tested on 3 different classifiers (Linear Regression, KNN, and Random Forest) and baseline results showed that logistic regression had the highest accuracy. However, after standerdizing the data with `StandardScaler()`, KNN had the highest accuracy. 
