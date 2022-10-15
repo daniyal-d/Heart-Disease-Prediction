@@ -42,7 +42,7 @@ st.subheader("This model attempts to predict whether or not someone has heart di
 st.subheader("The model was trained on the University of California Irvine's heart disease dataset and has 91.8% "
              "accuracy, .92 recall, and a .92 F1-score")
 st.subheader("Please note however that this was made by a high schooler "
-             "and should NOT be used as a medical diagnosis. Please consult your local medical professional "
+             "and should not be used as a medical diagnosis, rather just a tool to help. Please consult your local medical professional "
              "if you have any health concerns.")
 
 # Collecting user data
