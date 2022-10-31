@@ -1,7 +1,7 @@
 # Heart-Disease-Prediction
 Web app that uses a KNN classification model to predict whether or not someone has heart disease. It has 91.8% accuracy, .92 recall, and a .92 F1-score.
 
-Website link: https://daniyal-d-heart-disease-heart-disease-prediction-web-app-hcyoyk.streamlitapp.com/
+Website link: https://heart-disease-predictor.streamlitapp.com
 
 This project uses the University of California Irvine's heart disease dataset (https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci) to train and evaluate predictions. This repository consists of a Jupyter Notebook, which contains analysis of the data, model training/hypertuning, and model evaluation, the saved classification model, and a Python file containing the code of the web app. UCI's dataset was split into train and test sets, with the final model scoring 91.8% accuracy on the test set.
 
