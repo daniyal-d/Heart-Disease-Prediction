@@ -15,16 +15,14 @@ st.set_page_config(page_title="Heart Disease Classifier", layout="wide")
 st.sidebar.header("""**Dataset Features**""")
 st.sidebar.write(
     "You can view the entire Jupyter Notebook on Github (click the three bars on the top right of your screen "
-    "and then click 'View app source')")
-st.sidebar.markdown("Below description taken the from Kaggle (https://www.kaggle.com/datasets/cherngs/"
-                    "heart-disease-cleveland-uci)")
+    "and select 'View app source')")
 st.sidebar.markdown("""
-* **age** - The age of the patient.
-* **sex** - The gender of the patient. (1 = male, 0 = female).
-* **cp** - Type of chest pain. (0 = typical angina, 1 = atypical angina, 2 = non — anginal pain, 3 = asymptotic).
-* **trestbps** - Resting blood pressure in mmHg.
-* **chol** - Serum Cholesterol in mg/dl.
-* **fbs** - Fasting Blood Sugar. (1 = fasting blood sugar is more than 120mg/dl, 0 = otherwise).
+* **age** - Patient age.
+* **sex** - Patient sex assigned at birth. (1 = male, 0 = female).
+* **cp** - Chest pain type. (0 = typical angina, 1 = atypical angina, 2 = non—anginal pain, 3 = asymptotic).
+* **trestbps** - Resting blood pressure (mmHg).
+* **chol** - Serum Cholesterol level (mg/dl).
+* **fbs** - Fasting Blood Sugar level (mg/dl). (1 = fasting blood sugar is more than 120mg/dl, 0 = other).
 * **restecg** - Resting ElectroCardioGraphic results (0 = normal, 1 = ST-T wave abnormality, 2 = left ventricular hyperthrophy).
 * **thalach** - Max heart rate achieved.
 * **exang** - Exercise induced angina (1 = yes, 0 = no).
@@ -32,7 +30,7 @@ st.sidebar.markdown("""
 * **slope** - Peak exercise ST segment (0 = upsloping, 1 = flat, 2 = downsloping).
 * **ca** - Number of major vessels (0–3) colored by flourosopy.
 * **thal** - Thalassemia (3 = normal, 6 = fixed defect, 7 = reversible defect).
-* **target** - Diagnosis of heart disease (0 = absence, 1 = present)""")
+* **target** - Heart disease prediction (0 = absence, 1 = present)""")
 
 # Main Page
 st.title("Heart Disease Classifier")
@@ -41,8 +39,8 @@ st.subheader("This model attempts to predict whether or not someone has heart di
           " algorithm. Collected data is standardized and then evaluated with a hypertuned-model.")
 st.subheader("The model was trained on the University of California Irvine's heart disease dataset and has 91.8% "
              "accuracy, .92 recall, and a .92 F1-score")
-st.subheader("Please note however that this was made by a high schooler "
-             "and should not be used as a medical diagnosis, rather just a tool to help. Please consult your local medical professional "
+st.subheader("Please note that this "
+             "should not be used as a medical diagnosis, rather just a tool to help. Please consult your local medical professional "
              "if you have any health concerns.")
 
 # Collecting user data
