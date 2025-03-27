@@ -2,3 +2,4 @@ numpy==1.23.1
 scikit-learn==1.2.2
 streamlit==1.11.0
 pandas==1.4.3
+altair==4.0
